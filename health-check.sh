@@ -34,10 +34,6 @@ do
     else
       result="failed"
     fi
-    if [ "$result" = "success" ]; then
-      break
-    fi
-    sleep 5
   done
   dateTime=$(date +'%Y-%m-%d %H:%M')
   
