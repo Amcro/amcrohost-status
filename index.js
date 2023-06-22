@@ -24,7 +24,6 @@ function constructStatusStream(key, url, uptimeData) {
 
   const container = templatize("statusContainerTemplate", {
     title: key,
-    url: url,
     color: color,
     status: getStatusText(color),
     upTime: uptimeData.upTime,
